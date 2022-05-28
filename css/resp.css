@@ -1,0 +1,39 @@
+/* MObile View */
+@media only screen and (max-width: 1200px) {
+    .container .head {
+    font-size: 1.2rem;
+    }
+
+    .btn-section button {
+    border: none;
+    padding: .55rem 1rem;
+    font-size: .85rem;
+    }
+
+    .add-screen .screen-content {
+    margin: .5rem auto;
+    }
+
+    .add-screen .screen-content input {
+    padding: .65rem 1rem;
+    font-size: 1rem;
+    }
+
+    .add-screen .screen-content button {
+    padding: .55rem 1.25rem;
+    margin: 1.2rem auto;
+    font-size: .9rem;
+    }
+
+    .container{
+    width: 65%;
+    }
+}
+
+
+/* Tab View */
+@media only screen and (min-width: 800px) and (max-width: 1100px){
+    .container{
+    width: 50% !important;
+    }
+}
